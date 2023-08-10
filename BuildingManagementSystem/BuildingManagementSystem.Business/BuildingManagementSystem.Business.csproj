@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Hangfire.Core" Version="1.8.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BuildingManagementSystem.Base\BuildingManagementSystem.Base.csproj" />
+    <ProjectReference Include="..\BuildingManagementSystem.Data\BuildingManagementSystem.Data.csproj" />
+    <ProjectReference Include="..\BuildingManagementSystem.Schema\BuildingManagementSystem.Schema.csproj" />
+  </ItemGroup>
+
+</Project>
